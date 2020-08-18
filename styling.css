@@ -142,7 +142,7 @@ nav .horizontal-list li a:hover{
     color: grey;
     line-height: 2.5rem;
     font-weight: 600;
-    word-spacing: 6px;
+    word-spacing: 3px;
 }
 .coding-platform{
     text-decoration: none;
