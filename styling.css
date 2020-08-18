@@ -80,7 +80,7 @@ section{
 .horizontal-list li{
     display: inline-block;
     margin: 4px;
-    margin-right: 10px;
+    margin-right: 25px;
     font-size: 1rem;
 }
 
@@ -107,9 +107,8 @@ nav .horizontal-list li a:hover{
     position: relative;
     top: 20%;
 }
-.social-links .horizontal-list li a img{
-    width: 1.5rem;
-    height: 1.5rem;
+.social-links .horizontal-list li a i{
+    font-size: 1.5rem;
     margin: 7px;
 }
 
