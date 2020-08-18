@@ -121,7 +121,7 @@ nav .horizontal-list li a:hover{
 
 /* ABOUT */
 #about{
-    width: 75%;
+    width: 70%;
     height: auto;
     margin: auto;
 }
@@ -140,11 +140,20 @@ nav .horizontal-list li a:hover{
 #about-me p{
     text-align: justify;
     color: grey;
-    line-height: 2rem;
+    line-height: 2.5rem;
     font-weight: 600;
+    word-spacing: 6px;
+}
+.coding-platform{
+    text-decoration: none;
+    font-size: large;
+}
+.coding-platform:hover{
+    color: #2857a4;
 }
 .important-words{
     color: #2857a4;
+    font-size: large;
 }
 /* SKILLS */
 #skills{
@@ -177,19 +186,21 @@ nav .horizontal-list li a:hover{
     margin-bottom: 3rem;
     border-radius: 23px;
     background-color: #bfbdbd;
+    text-align: left;
 }
 
 .eighty-five-percent{
     width: 85%;
-    height: 101%;
+    height: 100%;
     border-radius: 20px 0 0 20px;
-    background-color: blueviolet;
+    background-color: brown;
     
     box-shadow: 4px 0 2px 0px #a39f9f;
 }
 
-.sixty-percent{
-    width: 60%;
+ 
+.forty-percent{
+    width: 40%;
     height: 100%;
     border-radius: 20px 0 0 20px;
     background-color: brown;
@@ -198,11 +209,11 @@ nav .horizontal-list li a:hover{
 
 }
 
-.seventy-percent{
-    width: 70%;
+.seventy-five-percent{
+    width: 75%;
     height: 100%;
     border-radius: 20px 0 0 20px;
-    background-color: mediumseagreen;
+    background-color: blueviolet;
     
     box-shadow: 4px 0 2px 0px #a39f9f
 
@@ -210,7 +221,7 @@ nav .horizontal-list li a:hover{
 
 .skill-value span{
     display: inline-block;
-    margin-top: 8%;
+    margin-top: 15px;
     margin-left: 4%;
     color: white;
     font-weight: 600;
