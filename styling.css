@@ -39,7 +39,7 @@ section{
 }
 #drop-down-menu{
     background-color:lightgrey;
-    width: 100%;
+    width: 65%;
     height: 100vh;
     position:fixed;
     left: 0;
@@ -593,7 +593,7 @@ nav .horizontal-list li a:hover{
     }
 
 }
-@media (max-width:355px){
+@media (max-width:375px){
     #drop-down-menu{
         width: 100%;
     }
