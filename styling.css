@@ -116,7 +116,16 @@ nav .horizontal-list li a:hover{
     border-radius: 50%;
     box-shadow: 0 0 2px 5px rgba(230, 196, 196, 0.3);
 }
-
+.move-top{
+    position: fixed; 
+    right: 20px; 
+    bottom: 20px
+}
+.move-top i{
+    text-decoration: none;
+    color: grey;
+    font-size: 35px;
+}
 
 /* ABOUT */
 #about{
@@ -290,6 +299,12 @@ nav .horizontal-list li a:hover{
         height: 150px;
         position: relative;
         margin-top: -90px;
+    }
+    .move-top{
+        right: 5px;
+    }
+    .move-top i{
+        font-size:22px;
     }
 }
 
@@ -499,7 +514,7 @@ nav .horizontal-list li a:hover{
 #contact-container{
     display: flex;
     margin-top: 4%;
-    margin-bottom: 5%;
+    margin-bottom: 27px;
     width: 100%;
     justify-content: space-evenly;
     
