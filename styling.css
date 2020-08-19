@@ -13,7 +13,9 @@ section{
     align-items: center;
     margin-bottom: 2%;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 /* header */
 
 #header{
