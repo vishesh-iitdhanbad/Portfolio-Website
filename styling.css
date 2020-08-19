@@ -516,7 +516,7 @@ nav .horizontal-list li a:hover{
 #contact-container{
     display: flex;
     margin-top: 4%;
-    margin-bottom: 27px;
+    margin-bottom: 10px;
     width: 100%;
     justify-content: space-evenly;
     
